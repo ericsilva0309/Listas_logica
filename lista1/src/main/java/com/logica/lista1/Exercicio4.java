@@ -13,8 +13,11 @@ public class Exercicio4 {
         System.out.println("Digite um número: ");
         n1 = sc1.nextInt();
 
-        sucessor += n1;
-        antecessor -= n1;
+        sucessor = n1 + 1;
+        antecessor = n1 - 1;
+
+        System.out.println("Sucessor = "+sucessor);
+        System.out.println("Antecessor = "+antecessor);
         
     }
 
