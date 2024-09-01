@@ -40,7 +40,7 @@ public class Exercicio8 {
                         System.out.println("Opção inválida. Tente novamente.\n");
                         break;
                 }
-            } while (opcao != 2); // Continua até que a opção 2 seja escolhida
+            } while (opcao != 2);
         }
 
 
