@@ -25,6 +25,10 @@ public class Exercicio8 {
         char[] respostasCorretas = {'A', 'A', 'B', 'A', 'B', 'A'};
 
         for (int i = 0; i < perguntas.length; i++) {
+
+            System.out.print("\033[H\033[2J");
+            System.out.flush();
+
             System.out.println("\n"+perguntas[i]);
             System.out.print("\nSua resposta: ");
             char resposta = sc1.next().toUpperCase().charAt(0);
@@ -42,9 +46,16 @@ public class Exercicio8 {
                 break;
             }
 
+            System.out.println("\nPressione Enter para continuar...");
+            sc1.nextLine(); // Consome a nova linha pendente
+            sc1.nextLine();
+
         }
 
         if (erros < 3) {
+            System.out.print("\033[H\033[2J");
+            System.out.flush();
+            
             System.out.println("\nParabéns! Você terminou o jogo.");
             System.out.println("Número de acertos: " + acertos + " de " + perguntas.length);
         }
