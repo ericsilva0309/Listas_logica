@@ -15,8 +15,8 @@ public class Menu2 {
             System.out.println("       Bem-vindo ao Menu de Exercícios");
             System.out.println("=======================================");
             System.out.println("Escolha um exercício para resolver:");
-            System.out.println("1. Exercício 1: Verificar par ou impar");
-            System.out.println("2. Exercício 2: Verificar qual número é maior");
+            System.out.println("1. Exercício 1: Crônometro");
+            System.out.println("2. Exercício 2: Tabuada");
             System.out.println("3. Exercício 3: Verifique se o usuário é gestante, tem mais de 65 anos ou é deficiente.");
             System.out.println("4. Exercício 4: Verificação de idade e permissões.");
             System.out.println("5. Exercício 5: Verifique login e senha.");
@@ -40,7 +40,7 @@ public class Menu2 {
                     Exercicio1.resolucao();
                     break;
                 case 2:
-                    
+                    Exercicio2.resolucao();
                     break;
                 case 3:
                     
