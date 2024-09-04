@@ -15,10 +15,10 @@ public class Menu2 {
             System.out.println("       Bem-vindo ao Menu de Exercícios");
             System.out.println("=======================================");
             System.out.println("Escolha um exercício para resolver:");
-            System.out.println("1. Exercício 1: Crônometro");
-            System.out.println("2. Exercício 2: Tabuada");
-            System.out.println("3. Exercício 3: Verifique se o usuário é gestante, tem mais de 65 anos ou é deficiente.");
-            System.out.println("4. Exercício 4: Verificação de idade e permissões.");
+            System.out.println("1. Exercício 1: Crônometro.");
+            System.out.println("2. Exercício 2: Tabuada.");
+            System.out.println("3. Exercício 3: Números pares.");
+            System.out.println("4. Exercício 4: Jogo da adivinhação.");
             System.out.println("5. Exercício 5: Verifique login e senha.");
             System.out.println("6. Exercício 6: Calculadora de média de provas.");
             System.out.println("7. Exercício 7: Programa Identificador de Divisibilidade");
@@ -49,7 +49,7 @@ public class Menu2 {
                     Exercicio4.resolucao();
                     break;
                 case 5:
-                    
+                    Exercicio5.resolucao();
                     break;
                 case 6:
                     
