@@ -43,7 +43,7 @@ public class Menu2 {
                     Exercicio2.resolucao();
                     break;
                 case 3:
-                    
+                    Exercicio3.resolucao();
                     break;
                 case 4:
                     
